@@ -1,0 +1,20 @@
+{
+  "name": "project-intro",
+  "version": "1.0.0",
+  "description": "DogDayAndroid的项目介绍.",
+  "main": "index.js",
+  "repository": "https://github.com/DogDayAndroid/DogDayAndroid.github.io.git",
+  "author": "easternday <849919718@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/plugin-search": "^1.9.7",
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
